@@ -1,0 +1,25 @@
+{
+  "name": "bac-review-app",
+  "version": "1.0.0",
+  "description": "تطبيق مراجعة البكالوريا بتقنية التدكر المتباعد",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install -w frontend && npm install -w backend",
+    "dev": "npm run dev -w frontend & npm start -w backend",
+    "build": "npm run build -w frontend",
+    "test": "npm test -w frontend && npm test -w backend"
+  },
+  "keywords": [
+    "بكالوريا",
+    "مراجعة",
+    "تدكر متباعد",
+    "flash cards",
+    "تعليم"
+  ],
+  "author": "ismailrossafi55-collab",
+  "license": "MIT"
+}
